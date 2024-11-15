@@ -1,0 +1,14 @@
+BOOTSTRAP-SASS
+Crear proyecto node JSON para poder descargar las dependencias
+-npm init
+
+Para poder descargar dependencias de desarrollo
+-npm i --save-dev bootstrap sass
+
+Para descargar gulp con sass y despues compilar el proyecto 
+-npm i --save-dev sass gulp-sass
+
+Para descargar gulp
+-npm i --save-dev gulp
+
+Después creamos un archivo "gulpfile.js"
