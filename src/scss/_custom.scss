@@ -1,4 +1,11 @@
 //Colores
+$Azul: #727CF4;
+$Verde: #0ACF97;
+$Azul-Obscuro: #313A46;
+
+$primary: $Azul;
+$secondary: $Verde;
+$dark: $Azul-Obscuro;
 
 //Importamos Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
