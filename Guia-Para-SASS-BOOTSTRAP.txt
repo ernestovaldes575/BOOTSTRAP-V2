@@ -12,3 +12,5 @@ Para descargar gulp
 -npm i --save-dev gulp
 
 Después creamos un archivo "gulpfile.js"
+
+Para ejecutar una tarea de GULP: "gulp dev"
