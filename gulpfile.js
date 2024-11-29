@@ -6,9 +6,9 @@ const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 
 function css(done){
-    src('src/scss/style.scss')
+    src('src/scss/app.scss')
         .pipe(sass({outputStyle:'compressed'}))// {outputStyle:'expanded'}Compilamos SASS
-        .pipe(dest('build/css/estilos.scss'))//Generamos los archivos
+        .pipe(dest('build/css/'))//Generamos los archivos
     done()
 }
 //Funcion para que escuche cada que hacemos un modificacion en el codigo
