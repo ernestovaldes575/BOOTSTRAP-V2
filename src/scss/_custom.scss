@@ -1,15 +1,17 @@
 //Colores
 $Verde-Azul: #1e8d82;
-$Verde: #0ACF97;
-$Azul-Obscuro: #313A46;
-$Rojo: #FA5C7C;
-$Azul-Claro: #39AFD1;
+$Azul-Claro: #a2c9a9;
+// $Verde: #0ACF97;
+// $Azul-Obscuro: #313A46;
+// $Rojo: #FA5C7C;
+// $Azul-Claro: #39AFD1;
 
 $primary: $Verde-Azul;
-$secondary: $Verde;
-$dark: $Azul-Obscuro;
-$danger: $Rojo;
-$warning: $Azul-Claro;
+$secondary: $Azul-Claro;
+// $secondary: $Verde;
+// $dark: $Azul-Obscuro;
+// $danger: $Rojo;
+// $warning: $Azul-Claro;
 
 //Importamos Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
