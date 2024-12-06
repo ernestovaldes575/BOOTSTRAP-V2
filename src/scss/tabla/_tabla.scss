@@ -1,0 +1,5 @@
+@use '../custom' as *;
+
+.tabla{
+    @extend .table, .table-hover;
+}
