@@ -1,5 +1,5 @@
 @use '../custom' as *;
 
 .tabla{
-    @extend .table, .table-hover;
+    @extend .table, .table-striped, .table-hover, .table-borderless, .align-middle, .border;
 }
