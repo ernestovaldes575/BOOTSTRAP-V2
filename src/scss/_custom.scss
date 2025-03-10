@@ -1,19 +1,23 @@
-//Colores
-$Verde-Azul: #1e8d82;
-$Azul-Claro: #97c2d3;
-$Rojo:#f64e4e;
+//Colores Versión 1
+// $Verde-Azul: #1e8d82;
+// $Azul-Claro: #97c2d3;
+// $Rojo:#f64e4e;
 // $Verde: #0ACF97;
 // $Azul-Obscuro: #313A46;
 // $Rojo: #FA5C7C;
 // $Azul-Claro: #39AFD1;
 
-$primary: $Verde-Azul;
-$secondary: $Azul-Claro;
-$danger:$Rojo;
+// $primary: $Verde-Azul;
+// $secondary: $Azul-Claro;
+// $danger:$Rojo;
 // $secondary: $Verde;
 // $dark: $Azul-Obscuro;
 // $danger: $Rojo;
 // $warning: $Azul-Claro;
+
+//Colores Versión 2
+$morado: #873472;
+$primary: $morado;
 
 //Importamos Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

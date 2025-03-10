@@ -7,8 +7,8 @@ const autoprefixer = require('autoprefixer');
 
 function css(done){
     src('src/scss/app.scss')
-        .pipe(sass({outputStyle:'compressed'}))// {outputStyle:'expanded'}Compilamos SASS
-        .pipe(dest('build/css/'))//Generamos los archivos
+        .pipe(sass({outputStyle:'expanded'}))// {outputStyle:'expanded'}Compilamos SASS
+        .pipe(dest('build/estilos/'))//Generamos los archivos
     done()
 }
 //Funcion para que escuche cada que hacemos un modificacion en el codigo
